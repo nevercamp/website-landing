@@ -26,8 +26,8 @@ function Header() {
                     <div className="flex-grow mr-4">
                         {/* Logo */}
                         <Link to="/" className="block" aria-label="Nevercamp">
-                            <img className="w-14 h-14" src={require('../images/logo.svg').default} width="100"
-                                 height="100" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
+                            <img className="h-16" src={require('../images/logo.svg').default} width="110"
+                                 height="110" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
                         </Link>
                     </div>
 
