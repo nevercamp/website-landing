@@ -129,9 +129,9 @@ function Modal({
                                     {/* Page header */}
                                     <div className="max-w-xl mx-auto text-center pb-8">
                                         <h1 className="h1 text-gray-900 mb-4">Contact</h1>
-                                        <p className="text-xl text-gray-600">Vous pouvez utiliser ce formulaire ou nous
+                                        <a className="text-xl text-gray-600" href='mailto:contact@nevercamp.com'>Vous pouvez utiliser ce formulaire ou nous
                                             contacter sur <span className="text-purple-600">contact@nevercamp.com</span>
-                                        </p>
+                                        </a>
                                     </div>
 
                                     {/* Form */}
@@ -161,10 +161,11 @@ function Modal({
                                             <div className="flex flex-wrap -mx-3 mb-4">
                                                 <div className="w-full px-3">
                                                     <label className="block text-gray-800 text-sm font-medium mb-1"
-                                                           htmlFor="nom">Nom</label>
+                                                           htmlFor="nom">Nom <span
+                                                        className="text-pink-400">*</span></label>
                                                     <input id="nom" name="nom" type="text" onChange={handleChange}
                                                            className="form-input w-full text-gray-800"
-                                                           placeholder="Votre nom"/>
+                                                           placeholder="Votre nom" required/>
                                                 </div>
                                             </div>
                                             <div className="flex flex-wrap -mx-3 mb-4">

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -10,12 +9,9 @@ function Footer() {
 
           {/* Social links */}
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-
-            <li>
-              <Link to="https://fr.linkedin.com/company/nevercamp" className="flex justify-center items-center " aria-label="Linkedin">
-                <img className="opacity-90 " src={require('../images/linkedin-icon.svg').default} width="32" height="32" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
-              </Link>
-            </li>
+            <a style={{textDecoration: 'none'}} href="https://fr.linkedin.com/company/nevercamp" target={"_blank"} rel="noreferrer">
+              <img className="opacity-90 " src={require('../images/linkedin-icon.svg').default} width="32" height="32" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
+            </a>
           </ul>
 
           {/* Copyrights note */}
