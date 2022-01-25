@@ -7,7 +7,7 @@ function HeroHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
-        <div className="pt-32 pb-12 md:pt-40 md:pb-20">
+        <div className="pt-32 pb-12 md:pt-20 md:pb-20">
 
           {/* Section header */}
           <div className="w-full text-center pb-12 md:pb-16">
