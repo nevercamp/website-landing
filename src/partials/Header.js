@@ -34,7 +34,7 @@ function Header() {
                     {/* Site navigation */}
                     <nav className="flex flex-grow">
                         <ul className="flex flex-grow justify-end flex-wrap items-center">
-                            <button className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                            <button className="btn-sm text-gray-200 bg-gray-800 hover:bg-gray-700 ml-3"
                                     onClick={(e) => {
                                         e.preventDefault();
                                         e.stopPropagation();

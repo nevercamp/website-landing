@@ -10,8 +10,8 @@ function Expertise() {
                     <div
                         className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
-                    <div className="absolute left-20 top-1/3 transform pointer-events-none" aria-hidden="true">
-                        <img className="opacity-10" src={require('../images/form-2.svg').default} width="600" height="600" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
+                    <div className="absolute left-32 top-1/3 transform pointer-events-none" aria-hidden="true">
+                        <img className="opacity-10" src={require('../images/form-2.svg').default} width="400" height="400" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
                     </div>
 
                     {/* Section header */}
