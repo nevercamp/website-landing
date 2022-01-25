@@ -1,0 +1,31 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  namespace: website
+  name: website-landing
+  labels:
+    app: website-landing
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    kubernetes.io/tls-acme: "true"
+    haproxy.org/rate-limit-period: "2s"
+    haproxy.org/rate-limit-requests: "20"
+    haproxy.org/timeout-check: "5s"
+    haproxy.org/src-ip-header: "True-Client-IP"
+    haproxy.org/forwarded-for: "true"
+spec:
+  tls:
+  - hosts:
+      - nevercamp.com
+    secretName: website-landing-tls
+  rules:
+  - host: nevercamp.com
+    http:
+      paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: website-landing
+              port:
+                number: 80

@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: website
+  name: website-landing
+  labels:
+    app: website-landing
+  annotations:
+    haproxy.org/check: "enable"
+    haproxy.org/forward-for: "enable"
+    haproxy.org/load-balance: "roundrobin"
+    kubernetes.io/topology-aware-hints: auto
+spec:
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: website-landing
