@@ -1,8 +1,6 @@
-import React, {useState, useRef, useEffect} from 'react';
+import React from 'react';
 
 function Features() {
-
-
     return (
         <section className="relative">
 
