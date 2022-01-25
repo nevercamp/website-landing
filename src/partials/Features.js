@@ -18,7 +18,7 @@ function Features() {
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
 
-                    <div className="pt-16 pb-12 md:pt-16 md:pb-16">
+                    <div className="pt-16 pb-12 md:pt-12 md:pb-16">
 
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pt-12 pb-12 md:pb-16" data-aos="zoom-y-out">
