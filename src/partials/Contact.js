@@ -21,7 +21,7 @@ function Contact() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h1 text-black mb-2">Une question ?</h3>
+                <h3 className="h1 text-black mb-2">Un besoin ?</h3>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
