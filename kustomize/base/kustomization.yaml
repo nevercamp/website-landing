@@ -4,6 +4,7 @@ resources:
 - deploy.yaml
 - ing.yaml
 - svc.yaml
+- rbac.yaml
 namespace: website
 images:
 - name: image_repo
