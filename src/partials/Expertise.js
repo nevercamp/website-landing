@@ -17,7 +17,7 @@ function Expertise() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pt-24 pb-12 md:pb-16" data-aos="zoom-y-out">
                         <h2 className="h1 mb-4">Notre expertise</h2>
-                        <p className="text-xl text-gray-600" data-aos="zoom-y-out">Nous sommes une équipe technique expérimenté aux compétences complémentaires.</p>
+                        <p className="text-xl text-gray-600" data-aos="zoom-y-out">Nous sommes une équipe technique expérimentée aux compétences complémentaires.</p>
                     </div>
 
                     {/* Items */}
