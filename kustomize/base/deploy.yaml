@@ -6,7 +6,7 @@ metadata:
   labels:
     app: "website-landing"
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: website-landing
@@ -52,6 +52,6 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: website-landing
-  minReplicas: 2
+  minReplicas: 1
   maxReplicas: 50
   targetCPUUtilizationPercentage: 50
