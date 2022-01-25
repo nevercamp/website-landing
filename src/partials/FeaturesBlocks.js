@@ -17,7 +17,7 @@ function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="zoom-y-out">
             <h2 className="h1 mb-4">Notre approche</h2>
-            <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+            <p className="text-xl text-gray-600">Nous nous impliquons pleinement dans votre projet et privilégions le développement de relations durables.</p>
           </div>
 
           {/* Items */}
