@@ -9,7 +9,7 @@ namespace: website
 images:
 - name: image_repo
   newName: rg.fr-par.scw.cloud/nevercamprepo/nevercamp/website-landing
-  newTag: 4cd37053828a8172c107ed47c7296386fa72ad04
+  newTag: 9aed9943e8569d276bed8816913febd946da024c
 - name: website-landing
   newName: rg.fr-par.scw.cloud/nevercamprepo/nevercamp/website-landing
   newTag: 59a677789d2ed9361db101c331fdbe003b728fac
