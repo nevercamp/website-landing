@@ -23,8 +23,7 @@ function Features() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pt-12 pb-12 md:pb-16" data-aos="zoom-y-out">
                         <h1 className="h1 mb-4 text-gray-900">Nos services</h1>
-                        <p className="text-xl text-gray-600">Duis aute irure dolor in reprehenderit in voluptate velit
-                            esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat.</p>
+                        <p className="text-xl text-gray-600">Nous vous accompagnons dans l'ensemble des phases techniques de pré-production : de la conceptualisation du produit à la validation du prototype.</p>
                     </div>
 
                     {/* Section content */}
@@ -39,9 +38,8 @@ function Features() {
                                  src={require('../images/idea.svg').default} width="100" height="100" alt="Element"
                                  style={{top: '0%'}}/>
                         </div>
-                        <h3 className="h3 mb-3 text-gray-900">Validation d’idée</h3>
-                        <p className="text-xl text-gray-600">Déterminez la viabilité d'un cas d'utilisation métier
-                            spécifique.</p>
+                        <h3 className="h3 mb-3 text-gray-900">Challenge d’idée</h3>
+                        <p className="text-xl text-gray-600">Déterminez la faisabilité de vos projets, selon vos spécificités métier et contraintes.</p>
                     </div>
 
                     <div
@@ -54,9 +52,8 @@ function Features() {
                                  src={require('../images/tech.svg').default} width="100" height="100" alt="Element"
                                  style={{top: '0%'}}/>
                         </div>
-                        <h3 className="h3 mb-3 text-gray-900">Validation de technologie</h3>
-                        <p className="text-xl text-gray-600">Choisissez la stack technologique la plus appropriée pour
-                            façonner votre produit.</p>
+                        <h3 className="h3 mb-3 text-gray-900">Étude de stack technologique</h3>
+                        <p className="text-xl text-gray-600">Optez pour les choix techniques les plus appropriés à vos besoins.</p>
                     </div>
 
                     <div
@@ -69,8 +66,8 @@ function Features() {
                                  src={require('../images/poc.svg').default} width="100" height="100" alt="Element"
                                  style={{top: '0%'}}/>
                         </div>
-                        <h3 className="h3 mb-3 text-gray-900">Développement POC</h3>
-                        <p className="text-xl text-gray-600">Testez vos idées grâce au développement de prototypes.</p>
+                        <h3 className="h3 mb-3 text-gray-900">Développement de prototypes</h3>
+                        <p className="text-xl text-gray-600">Testez votre produit grâce au développement de Proof of Concept (POC), MVP ou simulations personnalisées, dans votre environnement de production.</p>
                     </div>
 
 

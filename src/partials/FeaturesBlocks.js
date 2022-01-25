@@ -24,7 +24,7 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-1 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center pl-2 pr-2 pb-8 pt-8 bg-pink-400 rounded shadow-xl" data-aos="zoom-y-out"data-aos-delay="100">
+            <div className="relative flex flex-col items-center pl-2 pr-2 pb-8 pt-8 bg-pink-400 rounded shadow-xl" data-aos="zoom-y-out" data-aos-delay="100">
               <h4 className="text-4xl pb-8 font-bold leading-snug tracking-tight mb-1">Efficacité</h4>
               <p className="text-center">Testez vos hypothèses EN JOURS OU SEMAINES, pas en mois.</p>
             </div>
