@@ -7,7 +7,7 @@ function Footer() {
                 <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
                     {/* Social links */}
                     <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
-                        <a style={{textDecoration: 'none'}} href="https://fr.linkedin.com/company/nevercamp"
+                        <a style={{textDecoration: 'none'}} href="https://fr.linkedin.com/company/nevercamp-tech"
                            target={"_blank"} rel="noreferrer">
                             <img className="" src={require('../images/linkedin-icon.svg').default} width="32"
                                  height="32" alt="Logo" xmlns="http://www.w3.org/2000/svg"/>
