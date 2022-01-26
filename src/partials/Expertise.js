@@ -22,15 +22,16 @@ function Expertise() {
 
                     {/* Items */}
                     <div className="max-w-sm mx-auto text-center pb-12 md:pb-16">
-                        <h2 className="max-w-lg fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="50">IA</h2>
+                        <h2 className="max-w-lg fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="50">WEB 3.0</h2>
                         <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="100">BLOCKCHAIN</h2>
-                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="150">WEB 3.0</h2>
-                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="200">DEVOPS</h2>
-                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="250">MOBILE</h2>
-                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="300">DESKTOP</h2>
-                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="350">DATABASE</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="150">OPTIMISATION</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="200">IA</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="250">DEVOPS</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="300">MOBILE</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="350">DESKTOP</h2>
                         <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="400">IOT</h2>
-                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="450">COMPRESSION</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="450">DATABASE</h2>
+                        <h2 className="max-w-xl fill-current h3 mb-4 font-extrabold text-gray-500" data-aos="zoom-y-out" data-aos-delay="500">LOW TECH</h2>
                     </div>
 
                 </div>
